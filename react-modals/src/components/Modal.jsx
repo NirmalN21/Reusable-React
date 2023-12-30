@@ -10,7 +10,7 @@ const Modal = () => {
 
   return (
     <>
-      <button className="modal-upload-btn" onClick={() => setShowModal(true)}>Upload</button>
+      <button className="modal-upload-btn" onClick={() => setShowModal(true)}><b>Click Me</b></button>
       {showModal && <MyModel closeModal={closeModal} />}
     </>
   )

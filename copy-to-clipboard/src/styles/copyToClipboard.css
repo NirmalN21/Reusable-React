@@ -1,0 +1,49 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.type-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type-1-icon {
+    display: flex;
+    height: 1.5rem;
+    padding: 5px;
+    border: 2px solid rgb(67, 67, 67);
+    border-radius: 2px;
+}
+
+.type-1-icon:hover {
+    cursor: pointer;
+}
+.type-1 span,.type-2 span{
+    margin-left: 0.5rem;
+    width: 6rem;
+}
+
+input {
+    width: 20rem;
+    height: 2rem;
+    border: 2px solid rgb(115, 115, 115);
+    border-right: none;
+}
+
+.type-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.type-2-icon {
+    display: flex;
+    height: 5rem;
+    border: 2px solid black;
+}
+
+.type-2-icon:hover{
+    cursor: pointer;
+}
