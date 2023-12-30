@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import MyModel from './MyModel';
-import "../componentsCSS/modal.css"
+import "../styles/modal.css"
 
 const Modal = () => {
 
